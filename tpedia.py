@@ -1,4 +1,4 @@
-Dj## Tpedia.py - TpediaOTP SPAM (18-March-2018 [01:46])
+## Tpedia.py - TpediaOTP SPAM (18-March-2018 [01:46])
 # -*- coding: utf-8 -*-
 ##
 import sys
