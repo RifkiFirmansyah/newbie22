@@ -20,5 +20,5 @@ try:
 except KeyboardInterrupt:
     print spammer_class.color.FAIL+spammer_class.color.REVERSE+"\r[!][except] KeyboardInterrupt detected! Exiting . . ."+spammer_class.color.ENDC
     exit()
-    else ()
+else:
         spam()
