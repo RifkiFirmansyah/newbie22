@@ -49,7 +49,7 @@ def spam():
 	else:
 		print __banner__
 		print "Usage: tpedia.py [--sms/--call] PHONE"
-		print "lite.py: error: %s option requires an argument" %options
+		print "tpedia.py: error: %s option requires an argument" %options
 		sys.exit()
 
 if __name__ == '__main__':
