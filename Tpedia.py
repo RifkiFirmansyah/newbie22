@@ -7,7 +7,7 @@ import requests
 
 __banner__ = """
    _  _  _  _  _  _  _
-  / \/ \/ \/ \/ \/ \/ \  LiteOTP Spammer v1.1
+  / \/ \/ \/ \/ \/ \/ \  TpediaOTP Spammer v1.1
  ( T  p  d  |  O  T  P ) Author: mrx
   \ /\_/\ /\_/\ /\_/\ /  Codename: Alone.
   / \   / \   / \   / \  Github: https://github.com/Newbie22
